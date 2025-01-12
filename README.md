@@ -46,6 +46,12 @@ hugo
 hugo server -D --renderStaticToDisk --baseURL=your-guthub-pages-url --appendPort=false
 ```
 
+Test it locally:
+
+```sh
+hugo server -D --renderStaticToDisk --baseURL=http://localhost --appendPort=true
+```
+
 The actual content to host a static site will be in ```/public``` folder, so you need to push the content inside it on your [**GitHub Pages**](https://pages.github.com/) repo.
 
 ```sh
